@@ -15,7 +15,7 @@
 - Your legally obtained Final Fantasy Mystic Quest 1.1 ROM file, probably named `Final Fantasy - Mystic Quest (U) (V1.1).sfc`
 The Archipelago community cannot supply you with this.
 
-- The AP World file: [ffmq.apworld](https://github.com/wildham0/FFMQRApWorld/blob/main/ffmq.apworld) (Current Version: 2013-06-18)
+- The AP World file: [ffmq.apworld](https://github.com/wildham0/FFMQRApWorld/blob/main/ffmq.apworld) (Current Version: 2023-06-18)
 
 ## Installation Procedures
 
