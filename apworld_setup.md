@@ -15,7 +15,7 @@
 - Your legally obtained Final Fantasy Mystic Quest 1.1 ROM file, probably named `Final Fantasy - Mystic Quest (U) (V1.1).sfc`
 The Archipelago community cannot supply you with this.
 
-- The AP World file: [ffmq.apworld](https://test)
+- The AP World file: [ffmq.apworld](https://github.com/wildham0/FFMQRApWorld/blob/main/ffmq.apworld)
 
 ## Installation Procedures
 
@@ -25,7 +25,7 @@ The Archipelago community cannot supply you with this.
    or you are on an older version, you may run the installer again to install the SNI Client.
 2. After installing Archipelago, find the folder it was installed into (which by default is "C:\ProgramData\Archipelago";
    this will be called the "Root Folder" from here on), then enter the "lib" folder, then the "worlds" folder, and move the .apworld file there.
-4. If you are using an emulator, you should assign your Lua capable emulator as your default program for launching ROM
+3. If you are using an emulator, you should assign your Lua capable emulator as your default program for launching ROM
    files.
     1. Extract your emulator's folder to your Desktop, or somewhere you will remember.
     2. Right-click on a ROM file and select **Open with...**
@@ -38,28 +38,11 @@ The Archipelago community cannot supply you with this.
 
 ### What is a config file and why do I need one?
 
-See the guide on setting up a basic YAML at the Archipelago setup
-guide: [Basic Multiworld Setup Guide](/tutorial/Archipelago/setup/en)
+All players (host or not) will need a .yaml config file containing the settings they want for their game.
 
 ### Where do I get a config file?
 
-You can use the following config file template: [FInal_Fantasy_Mystic_Quest.yaml](https://test)
-
-### Verifying your config file
-
-If you would like to validate your config file to make sure it works, you may do so on the YAML Validator page. YAML
-validator page: [YAML Validation page](/mysterycheck)
-
-## Generating a Single-Player Game
-
-1. Navigate to the Player Settings page, configure your options, and click the "Generate Game" button.
-    - Player Settings page: [Final Fantasy Mystic Quest Player Settings Page](/games/Final%20Fantasy%20Mystic%20Quest/player-settings)
-2. You will be presented with a "Seed Info" page.
-3. Click the "Create New Room" link.
-4. You will be presented with a server page, from which you can download your `.apmq` patch file.
-5. Go to the [FFMQR website](https://ffmqrando.net/Archipelago) and select your Final Fantasy Mystic Quest 1.1 ROM
-and the .apmq file you received, choose optional preferences, and click `Generate` to get your patched ROM.
-7. Since this is a single-player game, you will no longer need the client, so feel free to close it.
+You can use the following config file template: [Final_Fantasy_Mystic_Quest.yaml](https://github.com/wildham0/FFMQRApWorld/blob/main/Final_Fantasy_Mystic_Quest.yaml)
 
 ## Joining a MultiWorld Game
 
