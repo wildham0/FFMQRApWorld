@@ -23,8 +23,8 @@ The Archipelago community cannot supply you with this.
 
 1. During the installation of Archipelago, you will have been asked to install the SNI Client. If you did not do this,
    or you are on an older version, you may run the installer again to install the SNI Client.
-2. After installing Archipelago, find the folder it was installed into (which by default is "C:\ProgramData\Archipelago";
-   this will be called the "Root Folder" from here on), then enter the "lib" folder, then the "worlds" folder, and move the .apworld file there.
+2. After installing Archipelago, find the folder it was installed into (which by default is `C:\ProgramData\Archipelago`;
+   the root folder from here on), then enter the `lib` folder, then the `worlds` folder, and move the .apworld file there.
 3. If you are using an emulator, you should assign your Lua capable emulator as your default program for launching ROM
    files.
     1. Extract your emulator's folder to your Desktop, or somewhere you will remember.
@@ -94,11 +94,11 @@ the lua you are using in your file explorer and copy the `socket.dll` to the bas
 You only have to do these steps once. Note, RetroArch 1.9.x will not work as it is older than 1.10.1.
 
 1. Enter the RetroArch main menu screen.
-2. Go to Settings --> User Interface. Set "Show Advanced Settings" to ON.
-3. Go to Settings --> Network. Set "Network Commands" to ON. (It is found below Request Device 16.) Leave the default
-   Network Command Port at 55355.
-4. Go to Main Menu --> Online Updater --> Core Downloader. Scroll down and select "Nintendo - SNES / SFC (bsnes-mercury
-   Performance)".
+2. Go to `Settings --> User Interface`. Set `Show Advanced Settings` to `ON`.
+3. Go to `Settings --> Network`. Set `Network Commands` to `ON`. (It is found below `Request Device 16`.) Leave the default
+  ` Network Command Port` at 55355.
+4. Go to `Main Menu --> Online Updater --> Core Downloader`. Scroll down and select `Nintendo - SNES / SFC (bsnes-mercury
+   Performance)`.
 
 When loading a ROM, be sure to select a **bsnes-mercury** core. These are the only cores that allow external tools to
 read ROM data.
@@ -120,9 +120,9 @@ page: [usb2snes Supported Platforms Page](http://usb2snes.com/#supported-platfor
 Your client should have automatically connected you to the AP Server. There are a few
 reasons this may not happen however, including if the game is hosted on the website but was generated elsewhere. If the
 client window shows "Server Status: Not Connected", simply ask the host for the address of the server, and copy/paste it
-into the "Server" input field then press enter.
+into the `Server` input field then press enter.
 
-The client will attempt to reconnect to the new server address, and should momentarily show "Server Status: Connected".
+The client will attempt to reconnect to the new server address, and should momentarily show `Server Status: Connected`.
 
 ### Play the game
 
@@ -134,11 +134,11 @@ successfully joining a multiworld game!
 The recommended way to host a game is to use our hosting service. The process is relatively simple:
 
 1. Collect config files from your players.
-2. Put the newly collected .yaml files in your "Root/Players" folder.
-3. Make sure once again that you have the FFMQ .apworld file in the "Root/lib/worlds" directory.
-4. Run "ArchipelagoGenerate.exe". If it doesn't spit out an error, a .zip file should appear in your "Root/output" folder with everything the players need to connect to the game.
+2. Put the newly collected .yaml files in your `./Players` folder.
+3. Make sure once again that you have the FFMQ .apworld file in the `./lib/worlds` directory.
+4. Run `ArchipelagoGenerate.exe`. If it doesn't spit out an error, a .zip file should appear in your `./output` folder with everything the players need to connect to the game.
 5. Go to the [Host Game page](https://archipelago.gg/uploads) on Archipelago.gg and uploads your .archipelago file.
-7. Click "Create New Room". This will take you to the server page. Provide the link to this page to your players, so
+7. Click `Create New Room`. This will take you to the server page. Provide the link to this page to your players, so
    they may download their patch files from there. For FFMQR player, their .apmq file should be distribitued manually by the the host.
 8. Note that a link to a MultiWorld Tracker is at the top of the room page. The tracker shows the progress of all
    players in the game. Any observers may also be given the link to this page.
